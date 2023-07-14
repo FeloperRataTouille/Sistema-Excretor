@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #5fcf80;
+  color: rgb(13, 55, 114);
   text-decoration: none;
 }
 
 a:hover {
-  color: #86db9f;
+  color: rgb(13, 55, 114);
   text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: rgb(13, 55, 114);
 }
 
 #header .logo img {
@@ -148,7 +148,7 @@ h6 {
 */
 .get-started-btn {
   margin-left: 22px;
-  background: #5fcf80;
+  background: rgb(13, 55, 114);
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -217,7 +217,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5fcf80;
+  color: rgb(13, 55, 114);
 }
 
 .navbar .dropdown ul {
@@ -666,15 +666,16 @@ section {
   background: #fff;
   padding: 40px 30px;
   width: 100%;
-  border: 1px solid #eef0ef;
+  border: 1px solid rgb(13, 55, 114);
+  border-radius: 20px;
 }
 
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: #fff;
   margin-bottom: 30px;
-  background: #ecf9f0;
+  background: rgb(13, 55, 114);
   border-radius: 50px;
 }
 
