@@ -9,6 +9,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#link:hover{
+  cursor: help;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -43,7 +47,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: rgb(13, 55, 114);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +61,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7ed899;
+  background: rgb(13, 55, 114);
   color: #fff;
 }
 
@@ -65,6 +69,7 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -116,6 +121,9 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+h6{
+  font-weight: 800;
+}
 #header {
   background: #fff;
   transition: all 0.5s;
@@ -159,7 +167,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #3ac162;
+  background: rgb(13, 55, 114);
   color: #fff;
 }
 
@@ -254,7 +262,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5fcf80;
+  color: rgb(13, 55, 114);
 }
 
 .navbar .dropdown:hover>ul {
@@ -354,7 +362,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5fcf80;
+  color: rgb(13, 55, 114);
 }
 
 .navbar-mobile .getstarted,
@@ -389,7 +397,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5fcf80;
+  color: rgb(13, 55, 114);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -457,8 +465,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: rgb(13, 55, 114);
+  border: 2px solid rgb(13, 55, 114);
 }
 
 @media (min-width: 1024px) {
@@ -533,7 +541,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: rgb(13, 55, 114);
   padding: 30px 0;
   color: #fff;
 }
@@ -666,8 +674,10 @@ section {
   background: #fff;
   padding: 40px 30px;
   width: 100%;
-  border: 1px solid rgb(13, 55, 114);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  border: 5px solid rgb(13, 55, 114);
   border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .why-us .icon-boxes .icon-box i {
@@ -1460,7 +1470,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: rgb(13, 55, 114);
   font-size: 18px;
   line-height: 1;
 }
@@ -1524,7 +1534,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #5fcf80;
+  background: rgb(13, 55, 114);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1541,7 +1551,7 @@ section {
 }
 
 #footer .credits a {
-  color: #3ac162;
+  color: rgb(13, 55, 114);
   transition: 0.3s;
 }
 
@@ -1552,7 +1562,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: rgb(13, 55, 114);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
