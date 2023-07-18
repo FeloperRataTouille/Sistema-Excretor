@@ -84,12 +84,12 @@
 
         <div class="row" style="box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08); padding: 50px;">
           <div class="col-lg-6 order-1 order-lg-2 justify-content-center" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/nefron.png" class="img-fluid" alt="">
+            <button data-bs-toggle="modal" data-bs-target="#imagemModal" style="cursor: zoom-in; background: none; border: none;"><img src="assets/img/nefron.png" class="img-fluid" alt=""></button>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>Unidade funcional do rim</h3>
             <p>
-              Os <a id="link" href="estrutura.html" style="color: darkblue;">rins</a> possuem mais de 1 milhão dessas pequenas estruturas, que são responsáveis por filtrar o sangue, eliminando toxinas e outras subtâncias que não seram utilizadas pelo nosso corpo, além de reabsorver muitas substâncias no processo. 
+              Os <a href="estrutura.html">rins</a> possuem mais de 1 milhão dessas pequenas estruturas, que são responsáveis por filtrar o sangue, eliminando toxinas e outras subtâncias que não seram utilizadas pelo nosso corpo, além de reabsorver muitas substâncias no processo. 
               Os estudos nesta plataforma também estão voltados para o sistema excretor em outros animais, por isso é importante ressaltar que essa estrutura está presente somente nos mamíferos e em algumas aves.
             </p>
             <h3>Corpúsculo renal (Filtração)</h3>
@@ -113,7 +113,7 @@
         </div>
         <div class="row" style="box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08); padding: 50px;">
         <div class="col-lg-6 order-1 order-lg-2 justify-content-center" data-aos="fade-left" data-aos-delay="100">
-          <img src="assets/img/hormonio.png" alt="Hormônios" style="height: 400px;">
+          <button data-bs-toggle="modal" data-bs-target="#imagemModal2" style="cursor: zoom-in; background: none; border: none;"><img src="assets/img/hormonio.png" alt="Hormônios" style="height: 400px;"></button>
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
           <p>Os hormônios ADH (hormônio antidiurético) e aldosterona desempenham papéis importantes no sistema urinário, regulando o equilíbrio de água e eletrólitos no organismo.</p>
@@ -129,6 +129,7 @@
         </div>
       </div>
       </div>
+
 
       
     <!-- </section>End About Section -->
@@ -259,7 +260,36 @@
     </section>End Testimonials Section-->
 
   </main><!-- End #main -->
-
+<div class="modal fade" id="imagemModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Néfron</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body justify-content-center">
+              <div class="d-flex justify-content-center">
+                <img src="assets/img/nefron.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="imagemModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Hormônios</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="hormonios" class="d-flex justify-content-center">
+                <img src="assets/img/hormonio.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
