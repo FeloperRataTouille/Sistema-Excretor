@@ -1,0 +1,72 @@
+<h3>Infecção Urinária</h3>
+            <h6>Causa:</h6>
+            <p>Infecção por micro-organismos que acomete o trato urinário.</p>
+            <p>Dependendo da estrutura que foi acometida, a infecção tem nomes diferentes: uretrite (uretra), cistite (bexiga) ou pielonefrite (rins).</p>
+            <h6>Sintomas:</h6>
+            <p>Necessidade urgente de urinar com frequência;</p>
+            <p>Escassa eliminação de urina em cada micção;</p>
+            <p>Ardor ao urinar;</p>
+            <p>Dores na bexiga, nas costas e no baixo ventre;</p>
+            <p>Febre;</p>
+            <p>Sangue na urina nos casos mais graves.</p>
+            <h6>Tratamento:</h6>
+            <p>Às vezes, o próprio organismo dá conta de eliminar as bactérias.</p>
+            <p>Em certos casos, o tratamento requer o uso de antibióticos que serão escolhidos de acordo com o tipo de bactéria encontrada no exame laboratorial de urina.</p>
+            <h6>Prevenção:</h6>
+            <p>Beba muita água. O líquido ajuda a expelir as bactérias da uretra e da bexiga;</p>
+            <p>Urine com frequência. Reter a urina na bexiga por longos períodos é uma contraindicação importante;</p>
+            <p>Urinar depois das relações sexuais favorece a eliminação das bactérias que se encontram no trato urinário;</p>
+            <p>Redobre os cuidados com a higiene pessoal.</p>
+            <p>Evite roupas íntimas muito justas ou que retenham calor e umidade, porque facilitam a proliferação das bactérias;</p>
+            <p>Modere o  consumo de tabaco, álcool, temperos fortes e cafeína. Essas substâncias podem irritar o trato urinário;</p>
+            <p>Troque os absorventes com frequência para evitar o proliferação bacteriana.</p>
+              
+              
+              <h3>Cálculos renais</h3>
+              <h6>Causa:</h6> 
+              <p>Acúmulo de cristais existentes na urina, e fatores como pouca ingestão de água e muito sal ajudam a deixar a urina mais concentrada </p>
+              <h6>Sintomas:</h6> 
+              <p>Vômitos e febre;</p>
+              <p>Sangue na urina;</p>
+              <p>Suspensão ou diminuição do fluxo urinário;</p>
+              <p>Necessidade mais frequente de urinar;</p>
+              <p>Infecções urinárias.</p>
+              <h6>Tratamento:</h6> 
+              <p>Pode variar dependendo do tipo Litotripsia (Bombardeamento das pedras por ondas de choque visando fragmentar o cálculo)</p>
+              <p>Cirurgias para a fragmentação do cálculo</p>
+              <h6>Prevenção:</h6>
+              <p>Beba água</p>
+              
+              
+              <h3>Incontinência urinária</h3>
+              <h6>Causa:</h6>
+              <p>Perda involuntária de urina e caracteriza uma manifestação de que existe algum problema com o funcionamento do trato urinário inferior. </p>
+              <h6>Sintomas</h6>
+              <p>Perda involuntária de urina</p>
+              <h6>Tratamento:</h6>
+              <p>Exercícios para reforçar a musculatura do assoalho pélvico e tratamento farmacológico e fisioterápico</p>
+              <h6>Prevenção</h6>
+              <p>Evitar a obesidade e o sedentarismo, controlar o ganho de peso durante a gestação, praticar exercícios fisioterápicos para fortalecer o assoalho pélvico</p>
+              
+              
+              <h3>Insuficiência Renal</h3>
+              <h6>Causa:</h6>
+              <p>Perda da capacidade de filtrar o sangue e eliminar substâncias que podem ser tóxicas para o organismo, como ureia ou creatinina pelos rins.</p>
+              <h6>Sintomas:</h6>
+              <p>Pouca urina;</p>
+              <p>Urina com espuma;</p>
+              <p>Cansaço frequente;</p>
+              <p>Sensação de falta de ar;</p>
+              <p>Inchaço das pernas e pés;</p>
+              <p>Pressão alta;</p>
+              <p>Diminuição do apetite;</p>
+              <p>Náuseas e vômitos;</p>
+              <p>Cãibras frequentes;</p>
+              <p>Tremor, principalmente nas mãos;</p>
+              <p>Formigamento nas mãos e nos pés;</p>
+              <p>Coceira na pele;</p>
+              <p>Sonolência ou confusão mental.</p>
+              <h6>Tratamento:</h6>
+              <p>O tratamento pode incluir hemodiálise ou transplante de rim para melhorar a qualidade de vida e promover o bem-estar</p>
+                <h6>Prevenção:</h6>
+                <p>Ingerir bastantes líquidos e apenas tomar medicamentos com orientação médica, pois muitos remédios são eliminados pela urina e podem sobrecarregar as funções dos rins.</p>
