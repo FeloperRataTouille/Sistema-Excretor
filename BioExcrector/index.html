@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="icon" href="assets/img/bio.png" type="image/x-icon">
 
-  <title>Trainers - Mentor Bootstrap Template</title>
+  <title>BioExcretor</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,13 +44,13 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">BioExcretor</a></h1>
+      <h1 class="logo me-auto"><img src="assets/img/BioExcrector.png" alt="" style="width: auto; height: 100%;"></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
           <li class="dropdown"><a href="#"><span>Resumo</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="estrutura.html">Estrutura</a></li>
@@ -58,8 +59,8 @@
               <li><a href="doencas.html">Doenças</a></li>
             </ul>
           </li>
-          <li><a class="active" href="trainers.html">Equipe</a></li>
-          <li><a href="#">Material</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="material.html">Material</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
         
@@ -69,86 +70,92 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main" data-aos="fade-in">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Sistema Excretor</h1>
+      <h2>Conjunto de órgãos e estruturas que trabalham para filtrar o sangue e expelir as substâncias potencialmente tóxicas do organismo humano</h2>
+      <a href="#why-us" class="btn-get-started nav-link scrollto">Inicie</a>
+    </div>
+  </section><!-- End Hero -->
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
-      <div class="container">
-        <h2>Equipe</h2>
-        <p>
-          A equipe de desenvolvedores composta por Fhellipe Brito, Wallison Dias e Luis Felipe é um grupo talentoso e dedicado, cujas habilidades e experiências únicas se complementam para criar experiências de usuário excepcionais. Cada membro desempenha uma função específica dentro do processo de desenvolvimento, contribuindo para a criação de interfaces intuitivas e atraentes.</p>
-      </div>
-    </div><!-- End Breadcrumbs -->
+  <main id="main">
 
-    <!-- ======= Trainers Section ======= -->
-    <section id="trainers" class="trainers">
+    <!-- ======= About Section ======= -->
+    <!-- <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/luba.jpeg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Luis Felipe</h4>
-                <span>Design Web</span>
-                <p>
-                  Como desenvolvedor web, Luis Felipe possui uma sólida compreensão das tecnologias e linguagens de programação necessárias para criar experiências interativas na web. Ele é proficiente em HTML, CSS e JavaScript, além de ter conhecimentos em frameworks e bibliotecas populares, como React, Vue.js ou Angular.
-                </p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="https://beduka.com/blog/wp-content/uploads/2019/07/sistema-excretor_capa.jpg" class="img-fluid" alt="">
           </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/fhellipe.jpeg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Fhellipe Brito</h4>
-                <span>Dev</span>
-                <p>
-                  Como desenvolvedor de software, Fhellipe possui habilidades técnicas e conhecimentos sólidos que o capacitam a transformar conceitos e requisitos em interfaces funcionais e atraentes. Ele domina várias linguagens de programação, como Python, Java ou C++, e está sempre atualizado com as tendências e melhores práticas do desenvolvimento de software.
-                </p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Sobre</h3>
+            <p class="fst-italic">
+              Designa-se como sistema excretor qualquer conjunto de órgãos que eliminem o que o corpo não necessita, num organismo, é responsável pela filtragem do sangue, regulação do teor de água e sais minerais e eliminação de resíduos nitrogenados formados durante o metabolismo celular. Ele é composto por quatro órgãos, veja mais detalhes abaixo:
+            </p>
           </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/carlito.jpeg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Wallison Dias</h4>
-                <span>Designer Gráfico</span>
-                <p>
-                  Wallison é especializado em desenvolvimento front-end, focando na criação de interfaces responsivas e intuitivas. Ele é capaz de traduzir os designs de interface em código funcional, garantindo que os elementos visuais sejam renderizados corretamente em diferentes dispositivos e navegadores. Além disso, Wallison está sempre atualizado com as melhores práticas do desenvolvimento front-end, incluindo acessibilidade e otimização de desempenho.
-                </p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
-    </section><!-- End Trainers Section -->
+    </section>End About Section -->
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+        <div class="col d-flex align-items-stretch justify-content-center">
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="row d-flex">
+              <div class="col-xl-3 d-flex align-items-stretch">
+                <button class="btn"><a href="estrutura.html">
+                  <div class="icon-box mt-3 mt-xl-0">
+                    <form action="estrutura.html"><img src="assets/img/rim.png" alt="" style="width: 100px; height: 100px;"></form>
+                    <h4 style="color: black;">Estrutura</h4>
+                    <p>Órgãos e estruturas principais do Sistema Excretor</p>
+                  </div>
+                </a></button>
+              </div>
+              <div class="col-xl-3 d-flex align-items-stretch">
+                <button class="btn"><a href="nefron.html">
+                  <div class="icon-box mt-3 mt-xl-0">
+                    <form action="nefron.html"><img src="assets/img/rim logo.png" alt="" style="width: 100px; height: 100px;"></form>
+                    <h4 style="color: black;">Néfron</h4>
+                    <p>Unidade funcional dos rins que realiza diversos processos</p>
+                  </div>
+                </a></button>
+              </div>
+              <div class="col-xl-3 d-flex align-items-stretch">
+                <button class="btn"><a href="filos.html">
+                  <div class="icon-box mt-3 mt-xl-0">
+                    <form action="filos.html"><img src="assets/img/borboleta.png" alt="" style="width: 100px; height: 100px; "></form>
+                    <h4 style="color: black;">Filos</h4>
+                    <p>Sistema Excretor em cada filo do reino animal</p>
+                  </div>
+                </a></button>
+              </div>
+              <div class="col-xl-3 d-flex align-items-stretch">
+                <button class="btn"><a href="doencas.html">
+                  <div class="icon-box mt-3 mt-xl-0">
+                    <form action="doencas.html"><img src="assets/img/cuidados-de-saude.png" alt="" style="width: 100px; height: 100px;"></form>
+                    <h4 style="color: black;">Doenças</h4>
+                    <p>Principais doenças que acometem o Sistema Urinário</p>
+                  </div>
+                </a></button>
+              </div>
+            </div>
+          </div><!-- End .content-->
+        </div>
+      </div>
+    </section>
+    
+          </div>
+        </div>
 
+      </div>
+    </section><!-- End Why Us Section -->
+    
   </main><!-- End #main -->
 
+  <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -171,16 +178,16 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="equipe.html">Equipe</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Material</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="material.html">Material</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Órgãos</h4>
+            <h4>Resumo</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Estrutura</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Néfron</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Filos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Doenças</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="estrutura.html">Estrutura</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="nefron.html">Néfron</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="filos.html">Filos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="doencas.html">Doenças</a></li>
             </ul>
           </div>
 
